@@ -20,3 +20,10 @@ a, *b, c = values
 
 
 print(a,b,c)
+
+
+values = 1, 2, 3 
+
+sonuc = values
+
+print(a,b,c)
