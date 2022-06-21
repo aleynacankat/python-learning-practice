@@ -26,3 +26,6 @@ yas = 35
  
 "My name is {0} {0} and I am {2} years old.".format(ad,soyad,yas)
 print("My name is {0} {0} and I am {2} years old.".format(ad,soyad,yas))
+
+print("My name is $ad" ,ad )
+
