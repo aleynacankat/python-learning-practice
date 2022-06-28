@@ -42,7 +42,12 @@ y.reverse()
 print(x is y)
 
 
+x = ["apple", "banana"]
+print("banana" in x)
 
+name = "Çınar"
+print("a" in name)
+print("a" not in name)
 
 
 
