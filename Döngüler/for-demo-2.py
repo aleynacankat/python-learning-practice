@@ -34,12 +34,12 @@ for key,value in _dict.items():
 """
 
 urunler = [
-    {'name':"iphone 8 ", 'price':"4000"},
-    {'name':"iphone 8 Plus",'price':"5000"},
-    {'name':"iphone X",'price':"6000"},
-    {'name':"iphone XR",'price':"7000"},
-    {'name':"iphone 11",'price':"8000"},
-    {'name':"iphone s10",'price':"6000"},
+    {'name':'iphone 8', 'price':'4000'},
+    {'name':'iphone 8 Plus', 'price':'5000'},
+    {'name':'iphone X', 'price':'6000'},
+    {'name':'iphone XR', 'price':'7000'},
+    {'name':'iphone 11', 'price':'8000'},
+    {'name':'samsung s10', 'price':'6000'},
 ]
 
 #1-Tüm ürün bilgilerini listeleyiniz.
@@ -48,9 +48,32 @@ for urun in urunler:
     print(f"urun adi: {urun['name']} ve urun fiyati: {urun['price']} TL")
 """
 
-#2-Urunlerin fiyatlari toplami nedir?
+for urun in urunler:
+    print(f"urun adi: {urun['name']} ve urun fiyati: {urun['price']} TL")
 
+
+#2-Urunlerin fiyatlari toplami nedir?
+"""
 toplam = 0
 for urun in urunler:
     toplam = toplam + int(urun('price'))
 print(f'urun toplamlari: , {toplam} TL')
+"""
+"""
+toplam = 0
+for urun in urunler:
+    toplam = toplam + int(urun['price'])
+print(f'urun toplamlari: , {toplam} TL')
+"""
+#urunlerin fiyati en fazla 6000 olan urunleri gosteriniz ?
+
+for urun in urunler:
+    if (int(urun['price']) >= 6000):
+        print(f"urun adi: {urun['name']} urun fiyati: {urun['price']}")
+
+# kullanicidan alinan anahtar kelimeyi iceren urunleri bulunuz.
+kelime = input('aramak istediginiz urun: ')
+
+for urun in urunler:
+    if urun['name'].find(kelime.lower()):
+        print(urun['name'])
