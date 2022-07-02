@@ -33,9 +33,10 @@ i = 1
 toplam = 0
 
 while (i <= 100):
+    i += 1
     if (i %2 == 1):
         continue
     toplam += 1
-    i += 1
+    
 
 print(f"toplam: {toplam}")

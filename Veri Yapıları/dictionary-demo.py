@@ -42,3 +42,4 @@ urun = urunler[id]
 print(f'id: {id} ürün adı: {urun["ad"]} ürün fiyatı: {urun["fiyat"]}')
 print(urunler)
 
+'Aleyna' * 5

@@ -1,6 +1,6 @@
 # Bir aracın yakıt tipine göre (benzin,dizel) belirtilen bir mesafede ne kadar yakıt masrafı olduğunu
 # hesaplayan uygulamayı yapınız.
-"""
+
 benzinFiyat = 6.69
 dizelFiyat = 5.86
 toplamYakitUcreti = 0
@@ -20,8 +20,8 @@ else:
 
 if (toplamYakitUcreti != 0):
     print(toplamYakitUcreti)
-"""
-"""
+
+
 benzinFiyat = 6.69
 dizelFiyat = 5.86
 
@@ -41,7 +41,7 @@ else:
 print(toplamYakitUcreti)
 
 if (toplamYakitTuketimi != 0):
-    print(toplamYakitUcreti)
-"""
+   print(toplamYakitUcreti)
 
+#sdasfdasf
 
