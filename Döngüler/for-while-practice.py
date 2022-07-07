@@ -215,7 +215,7 @@ for harf, adet in sozluk.items():
     print(harf, adet)
 """
 #ekrandan okunan bir metinde a harflerini buyuk yapan bir programa yaziniz
-
+"""
 metin = input("Bir metin giriniz: ")
 
 metin2 = " "
@@ -226,5 +226,47 @@ for harf in metin:
     else:
         metin2 += harf
 print(metin2)
+"""
+# ilk 10000 asal sayinin kac tanesi 3 tanesi ile baslar ve 7 ile biter ? 
+"""
+prime_list = list()
+
+prime_list.append(2)
+
+sayi = 3
+
+while True:
+    prime = True
+    for i in range(2,sayi):
+        if sayi %i == 0:
+            prime = False
+            break
+    if prime:
+        prime_list.append(sayi)
+        if len(prime_list) == 10000:
+            break
+    sayi += 1
+
+for prime in prime_list:
+    strprime = str(prime)
+    if strprime.startswith("3") and strprime.endswith("7"):
+        liste2.append(prime)
+
+print(liste2)
+"""
+
+#3 basamakli sayilarin kac tanesi rakamlarinin kuplerinin toplamina esittir ? 
+
+liste = []
+
+for sayi in range(100,1000):
+    toplam = 0
+    geciciSayi = sayi
+    while geciciSayi != 0:
+        basamak = geciciSayi % 10
+        toplam += basamak ** 3
+        geciciSayi //= 10
+    if toplam == sayi:
+        liste.append(sayi)
 
 
