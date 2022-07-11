@@ -2,7 +2,7 @@ def selamlama():
     for i in range(11):
         print('Merhaba')
 
-# selamlama()
+selamlama()
 
 
 def topla():
@@ -12,5 +12,3 @@ def topla():
 
 topla()
 
-
-soru = int(input("Aslınur aklşndan tuttugun sayiyi yaz: "))

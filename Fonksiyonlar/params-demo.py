@@ -39,7 +39,7 @@ print(sonuc)
 """
 # Kendisine gonderilen renk isimlerimdem icinde "blue" rengi varsa True donduren 
 # fonksiyonu yaziniz.
-
+"""
 def contains_blue(*args):
     if "blue" in args:
         return True
@@ -49,3 +49,14 @@ sonuc = contains_blue("blue","yellow","red")
 sonuc = contains_blue("green","yellow","red","black")
 
 print(sonuc)
+"""
+
+import random
+for i in range(5):
+    print(random.randint(1,10))
+
+def hello(name):
+    print(f'Hello {name}')
+
+hello('alice')
+hello('bob')

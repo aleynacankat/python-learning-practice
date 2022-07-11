@@ -4,7 +4,7 @@
 #     print(args)
 
 # displayUser()
-
+"""
 def displayUser(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}:{value}")
@@ -25,3 +25,14 @@ def myFunc(a,b,c,*args,**kwargs):
     print(kwargs)
 
 myFunc(10,20,30,40,50,60,key1="value", key2 ="value 2")
+"""
+def displayUser(*args):
+    print(type(args))
+
+displayUser()
+
+def displayUser(**kwargs): #direk dict icine yazdı
+    print(type(kwargs))
+    print(kwargs)
+
+displayUser(username = "aleynacankat", mail = "aleyna@gmail")

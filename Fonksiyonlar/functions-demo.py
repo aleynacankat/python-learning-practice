@@ -18,7 +18,7 @@ def hesapla(kisa, uzun):
 print(hesapla(5,7))
 
 #3- Yazi tura uygulamasini fonksiyon kullanarak yapiniz. (random modulü)
-
+"""
 def yaziTuraAt():
     import random
     sayi = random.random()
@@ -29,7 +29,17 @@ def yaziTuraAt():
         return "Yazi"
 
 print(yaziTuraAt())
+"""
 
+def yaziTura():
+    import random
+    sayi = random.random()
+
+    if sayi > 0.5:
+        return "Tura"
+    else:
+        return "Yazi"
+        
 #4- Kendisine gonderilen 2 sayi arasindaki tum asal sayilari bulan fonksiyonu yaziniz.
 
 def asalSayilariBul(sayi1, sayi2):

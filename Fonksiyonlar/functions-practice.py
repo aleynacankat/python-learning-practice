@@ -69,12 +69,30 @@ a = buyukHarfeCevir("AsDfG")
 print(a)
 """
 
-def buyukHarfeCevir(metin):
-    return metin.upper()
+# def buyukHarfeCevir(metin):
+#     return metin.upper()
 
-func = buyukHarfeCevir
+# func = buyukHarfeCevir
 
-sonuc = func("HuOfdE")
-print(sonuc)
+# sonuc = func("HuOfdE")
+# print(sonuc)
+"""
+from xml.dom.expatbuilder import theDOMImplementation
 
 
+def topla(a,b): #Fonksiyonumuzun ne işe yaradigini belirttik
+    c = a + b #Fonksiyonun, iceri gelen a ve b sayilariyle ne yapacgina karar verdik
+    return c # a ve b sayilarinin toplamiyle olusan c sayisinin istenilen yere yani toplama
+    #ulastirilmasini sagladik.
+
+toplam = topla(3,2)
+print(toplam) 
+# 'toplam' ( toplam = c ) olarak düsünmek daha kolay olur. Cunku 
+#aslinde c degerini yazdiriyor.
+"""
+
+def topla(a,b):
+    c = a + b
+    return
+
+topla(2,3)
