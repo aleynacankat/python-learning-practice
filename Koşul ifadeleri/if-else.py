@@ -16,3 +16,15 @@ if (username == "sadikturan"):
         print("Uygulamaya hoş geldiniz.")
 else:
     print("username yanlış")
+
+
+
+kullanici_username = "aleynacankat"
+kullanici_password = "12345"
+
+isLogin = (kullanici_username == "aleynacankat") and (kullanici_password == "12345")
+
+if isLogin == True:
+    print(f"kullanici girisi dogru, {kullanici_username} hosgeldiniz")
+else:
+    print("kullanici girisi hatali")

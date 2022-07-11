@@ -13,6 +13,20 @@ if (yas >= 18):
 else:
     print(f'{isim} ehliyet alamazsınız çünkü yaşınız tutmuyor.')
 """
+isim = input("isim: ")
+yas = int(input("yasiniz: "))
+egitim = input("egitim seviyesi: ")
+
+
+if (yas >= 18):
+     if (egitim == 'lise' or egitim == 'universite'):
+          print('ehliyet alabilirsiniz.')
+     else:
+          print(f"{isim} ehliyet alamazsiniz, cunku egitim durumu yetersiz!")
+else:
+     print(f"{isim}, ehliyet alamazsiniz. Yasiniz yetersiz!")
+
+
 # 2- Bir öğrencinin 2 yazılı bir sözlü notunu alıp hesaplanan ortalamaya göre not aralığına karşılık 
 # gelen not bilgisini yazdırınız.
 #    0 -24  => 0
@@ -50,6 +64,8 @@ else:
 #    55-69  => 3
 #    70-84  => 4
 #    85-100 => 5
+
+"""
 yazili1 = float(input("yazili1: "))
 yazili2 = float(input("yazili2: "))
 yazili3 = float(input("yazili3: "))
@@ -63,7 +79,7 @@ elif (ortalama >= 44) and (ortalama < 54):
      print(f"ortalamanız: {ortalama} ve notunuz: 2")
 elif (ortalama >= 54) and (ortalama < 69):
      print(f"ortalamanız: {ortalama} ve notunuz: 2")
-
+"""
 
 # 3- Trafiğe çıkış tarihi alınan bir aracın servis zamanını aşağıdaki bilgilere göre hesaplayınız.
 #    1. Bakım => 1. yıl     

@@ -41,8 +41,8 @@ def paraCek(hesap, miktar):
 def bakiyeSorgula(hesap):
     print(f"{hesap['hesapNo']} nolu hesabinizda {hesap['bakiye']} TL bulunmaktadir. Ek hesap limitiniz ise {hesap['ekHesap']} TL bulunmaktadir.")
 
-paraCek(aleynaHesap, 3000)
+paraCek(aleynaHesap, 1000)
 bakiyeSorgula(aleynaHesap)
 print('**********')
-paraCek(aleynaHesap, 2000)
+paraCek(aleynaHesap, 1000)
 bakiyeSorgula(aleynaHesap)

@@ -46,7 +46,7 @@ for i in liste:
         continue #bunun anlamı 3 e gelince geç devam et 3ü atla demek istiyoruz.
     print(i)
 """
-"""Eğer continue yerine break yazsaydım 3'ten sonrasını yazmayacaktı, farkı bu!!! DÖNGÜYÜ SONLANDIRIR! continue ise bir elemanı pas g
+"""Eğer continue yerine break yazsaydım 3'ten sonrasını yazmayacaktı, farkı bu!!! DÖNGÜYÜ SONLANDIRIR! continue ise bir elemanı pas
 gecip, listenin sonuna kadar devam etmesini saglar."""
 """
 for i in liste:

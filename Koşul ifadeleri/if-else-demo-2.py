@@ -25,7 +25,7 @@ if (toplamYakitUcreti != 0):
 benzinFiyat = 6.69
 dizelFiyat = 5.86
 
-ortalamaYakitTuketimi = float(input("100 km'deki ortalama takit tuketimi: "))
+ortalamaYakitTuketimi = float(input("100 km'deki ortalama yakit tuketimi: "))
 gidilecekYol = float(input("kaç km yol gittiniz: "))
 yakitTipi = input("yakit tipi: ")
 

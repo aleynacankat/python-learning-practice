@@ -31,6 +31,16 @@
 # else:
 #     print('girilen bilgiler yanlış')
 
+username = "aleynacankat"
+password = 12345
+
+girilenUsername = input('username: ')
+girilenPassword = input('password: ')
+if (girilenUsername.strip() == username) and (girilenPassword.strip() == password):
+    print('girilen username ve parola dogru')
+else:
+    print('girilen bilgiler yanlistir.')
+
 
 # 4- Girilen 3 sayıyı büyüklük olarak karşılaştırınız.
 

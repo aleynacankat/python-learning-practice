@@ -1,0 +1,30 @@
+
+# name = 'aleyna'
+# message = f'Hi, my name is {name}'
+
+# update = message.upper()
+# print(update)
+
+
+# i = 1
+
+# while i < 5:
+#     print(i)
+#     i += 1
+
+# for i in range(1,5):
+#     print(i)
+
+
+customer = {
+    "name": "John Smith",
+    "age": 22,
+    "isVerified": True
+}
+
+new = customer["name"]
+new2 = customer.get("type", "silver")
+print(new2)
+
+
+

@@ -188,4 +188,3 @@ for k,v in kisi.items():
 
 print(kisi.get("id","Bulunamadi")) #degeri almamizda kullaniyoruz
 
-

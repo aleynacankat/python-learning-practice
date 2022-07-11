@@ -11,3 +11,6 @@ def topla():
     print(a+b)
 
 topla()
+
+
+soru = int(input("Aslınur aklşndan tuttugun sayiyi yaz: "))
