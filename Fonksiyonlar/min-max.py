@@ -24,4 +24,16 @@ urunler = [
     {"title":"iphone 11", "price": 7000},
 ]
 
+sonuc = max(urunler, key = lambda urun: urun['price'])['title']
+print(sonuc)
 sonuc = min(urunler, key=lambda urun: urun['price'])
+
+max = 0 
+
+for urun in urunler:
+    if urun["price"]>max:
+        max = urun["price"]
+
+print(urun)
+
+
