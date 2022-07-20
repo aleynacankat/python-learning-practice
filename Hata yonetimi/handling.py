@@ -10,13 +10,18 @@ except ValueError:
 except:
     print('bilinmeyen bir hata olustu.')
 """
-
-try:
-    x = int(input('x: '))
-    y = int(input('y: '))
-    print(x/y)
-# except (ZeroDivisionError, ValueError) as e:
-#     print('hata olustu')
-#     print(e)
-except Exception as e: 
-    print('bilinmeyen bir hata olustu.')
+while True:
+    try:
+        x = int(input('x: '))
+        y = int(input('y: '))
+        print(x/y)
+    # except (ZeroDivisionError, ValueError) as e:
+    #     print('hata olustu')
+    #     print(e)
+    except Exception as e: 
+        print('bilinmeyen bir hata olustu.')
+        print(e)
+    else:
+        break
+    finally:
+        print('finally blogu calisir.')
