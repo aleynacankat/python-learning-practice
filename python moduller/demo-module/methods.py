@@ -17,4 +17,4 @@ def urunGuncelle(id, urunAdi, fiyat):
 
 def urunleriGetir():
     for urun in db.urunler:
-        print(f"id {}")
+        print(f"id {urun['id']} urun adi: {urun['urunAdi']} fiyat: {urun['fiyat']}")
